@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Gym Rat</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_custom_workout_exercises">CustomWorkoutExercises</string>
+    <string name="title_activity_tips_for_exercise">TipsForExercise</string>
+
+    <!-- String for My profile -->
+    <string name="MyProfile"><u>My Profile:</u></string>
+
+    <!-- String for Add Workout -->
+
+    <string name="weight_of_equipment">equipment</string>
+    <string name="num_of_sets">sets</string>
+    <string name="weight_tracker">Weight Tracker</string>
+    <string name="weight">Weight</string>
+    <string name="title_activity_weight_tracker_display">WeightTrackerDisplay</string>
+    <string name="title_activity_example_workout">ExampleWorkout</string>
+    <string name="my_workouts">My Workouts</string>
+    <string name="home">Home</string>
+    <string name="title_activity_display_workouts">DisplayWorkouts</string>
+</resources>

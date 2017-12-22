@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cmsc355.ccnd.gymrat.AddWorkout">
+
+    <EditText
+        android:id="@+id/numOfSets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter number of sets"
+         />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/numOfSets"
+        android:layout_below="@+id/numOfSets"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint=" Enter weight of equipment"
+         />
+
+    <Button
+        android:id="@+id/addExercisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:onClick="onAddWorkoutClick"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/workoutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/numOfSets"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Name of new workout"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+</RelativeLayout>
